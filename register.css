@@ -1,0 +1,39 @@
+body{
+    background-color: #032A4A;
+}
+h1{
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:10px;
+}
+h2{
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:10px;
+}
+form{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+      box-sizing: border-box;
+    }
+.column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 420px;
+}
+.row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+.submit_button{
+    float: left;
+    padding: 10px;
+}
